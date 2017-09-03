@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/master.swiftdeps"
+  },
+  "/Users/km/projects/stack-vm/Sources/main.swift": {
+    "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.d",
+    "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.swift.o",
+    "swiftmodule": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.swiftdeps"
+  },
+  "/Users/km/projects/stack-vm/Sources/Stack.swift": {
+    "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack.d",
+    "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack.swift.o",
+    "swiftmodule": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack~partial.swiftmodule",
+    "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack.swiftdeps"
+  }
+}
