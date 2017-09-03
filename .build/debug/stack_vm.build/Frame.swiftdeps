@@ -1,0 +1,62 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Frame"
+provides-nominal:
+- "C8stack_vm5Frame"
+provides-member:
+- ["C8stack_vm5Frame", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "Frame"
+- "Int"
+- !private "IntegerLiteralType"
+depends-member:
+- ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "returnAddress"]
+- !private ["Ps9AnyObject", "variables"]
+- ["Ps9AnyObject", ""]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["C8stack_vm5Frame", "Int"]
+- ["C8stack_vm5Frame", "deinit"]
+- ["C8stack_vm5Frame", "init"]
+- ["C8stack_vm5Frame", "load"]
+- ["C8stack_vm5Frame", "returnAddress"]
+- ["C8stack_vm5Frame", "store"]
+- !private ["C8stack_vm5Frame", "variables"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "C8stack_vm5Frame"
+- "Ps8Sequence"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "045ea52fd1632dbff9a5f34e3689417a"

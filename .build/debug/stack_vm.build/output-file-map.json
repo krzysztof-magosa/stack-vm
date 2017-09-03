@@ -2,6 +2,12 @@
   "": {
     "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/master.swiftdeps"
   },
+  "/Users/km/projects/stack-vm/Sources/Frame.swift": {
+    "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Frame.d",
+    "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Frame.swift.o",
+    "swiftmodule": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Frame.swiftdeps"
+  },
   "/Users/km/projects/stack-vm/Sources/main.swift": {
     "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.d",
     "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.swift.o",

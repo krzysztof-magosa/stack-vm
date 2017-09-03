@@ -5,7 +5,7 @@ enum StackError: Error {
 
 
 class Stack<T> {
-    let size: Int
+    var size: Int
     var items: [T]
 
     init(size: Int) {
