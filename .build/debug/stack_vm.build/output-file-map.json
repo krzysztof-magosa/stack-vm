@@ -14,6 +14,12 @@
     "swiftmodule": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main~partial.swiftmodule",
     "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/main.swiftdeps"
   },
+  "/Users/km/projects/stack-vm/Sources/Op.swift": {
+    "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Op.d",
+    "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Op.swift.o",
+    "swiftmodule": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Op~partial.swiftmodule",
+    "swift-dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Op.swiftdeps"
+  },
   "/Users/km/projects/stack-vm/Sources/Stack.swift": {
     "dependencies": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack.d",
     "object": "/Users/km/projects/stack-vm/.build/debug/stack_vm.build/Stack.swift.o",

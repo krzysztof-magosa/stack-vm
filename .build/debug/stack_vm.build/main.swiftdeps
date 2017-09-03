@@ -1,17 +1,14 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "Op"
 - "VmError"
 - "Vm"
 - "code"
 - "vm"
 - "=="
 provides-nominal:
-- "V8stack_vm2Op"
 - "O8stack_vm7VmError"
 - "C8stack_vm2Vm"
 provides-member:
-- ["V8stack_vm2Op", ""]
 - ["O8stack_vm7VmError", ""]
 - ["C8stack_vm2Vm", ""]
 provides-dynamic-lookup:
@@ -139,30 +136,29 @@ depends-member:
 - !private ["Ps10MirrorPath", "init"]
 - !private ["Ps17MutableCollection", "subscript"]
 - ["V8stack_vm2Op", "ADD"]
-- ["V8stack_vm2Op", "AND"]
-- ["V8stack_vm2Op", "CMP_E"]
-- ["V8stack_vm2Op", "CMP_G"]
-- ["V8stack_vm2Op", "CMP_GE"]
-- ["V8stack_vm2Op", "CMP_L"]
-- ["V8stack_vm2Op", "CMP_LE"]
-- ["V8stack_vm2Op", "CMP_NE"]
-- ["V8stack_vm2Op", "DIV"]
-- ["V8stack_vm2Op", "DUP"]
+- !private ["V8stack_vm2Op", "AND"]
+- !private ["V8stack_vm2Op", "CMP_E"]
+- !private ["V8stack_vm2Op", "CMP_G"]
+- !private ["V8stack_vm2Op", "CMP_GE"]
+- !private ["V8stack_vm2Op", "CMP_L"]
+- !private ["V8stack_vm2Op", "CMP_LE"]
+- !private ["V8stack_vm2Op", "CMP_NE"]
+- !private ["V8stack_vm2Op", "DIV"]
+- !private ["V8stack_vm2Op", "DUP"]
 - ["V8stack_vm2Op", "HALT"]
-- ["V8stack_vm2Op", "JIF"]
-- ["V8stack_vm2Op", "JMP"]
+- !private ["V8stack_vm2Op", "JIF"]
+- !private ["V8stack_vm2Op", "JMP"]
 - ["V8stack_vm2Op", "LOAD"]
-- ["V8stack_vm2Op", "MOD"]
-- ["V8stack_vm2Op", "MUL"]
-- ["V8stack_vm2Op", "NOP"]
-- ["V8stack_vm2Op", "NOT"]
-- ["V8stack_vm2Op", "OR"]
-- ["V8stack_vm2Op", "POP"]
+- !private ["V8stack_vm2Op", "MOD"]
+- !private ["V8stack_vm2Op", "MUL"]
+- !private ["V8stack_vm2Op", "NOP"]
+- !private ["V8stack_vm2Op", "NOT"]
+- !private ["V8stack_vm2Op", "OR"]
+- !private ["V8stack_vm2Op", "POP"]
 - ["V8stack_vm2Op", "PRINT_I"]
 - ["V8stack_vm2Op", "PUSH"]
 - ["V8stack_vm2Op", "STORE"]
-- ["V8stack_vm2Op", "SUB"]
-- ["V8stack_vm2Op", "init"]
+- !private ["V8stack_vm2Op", "SUB"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
 - !private ["Ps26RangeReplaceableCollection", "subscript"]
 - !private ["Ps8Sequence", "subscript"]
@@ -301,4 +297,4 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "cf664b4872edb88daa9260ba75acc8db"
+interface-hash: "59d43ab07d6d1abeb4a4745e6c11f4cb"
