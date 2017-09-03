@@ -58,8 +58,9 @@ class Vm {
     }
 
     func nextOp() -> Int {
+        let x =  self.code[ip]
         ip += 1
-        return self.code[ip]
+        return x
     }
 
     func run() throws {
@@ -91,10 +92,12 @@ class Vm {
                 try stack.push(stack.peek())
 
             case Op.LOAD:
-                break
+                let a = nextOp()
+                try stack.push(frames.peek().load(a))
 
             case Op.STORE:
-                break
+                let a = nextOp()
+                try frames.peek().store(a, stack.pop())
 
             case Op.PRINT_I:
                 let a = try stack.pop()
@@ -189,12 +192,20 @@ class Vm {
 }
 
 let code: [Int] = [
-  Op.PUSH,
-  4,
-  Op.PUSH,
-  5,
-  Op.CMP_L,
+  Op.PUSH, 100,
+  Op.STORE, 0,
+
+  Op.PUSH, 200,
+  Op.STORE, 1,
+
+  Op.PUSH, 300,
+
+  Op.LOAD, 1,
+
+  Op.ADD,
+
   Op.PRINT_I,
+
   Op.HALT
 ]
 

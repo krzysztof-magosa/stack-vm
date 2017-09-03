@@ -61,6 +61,7 @@ depends-member:
 - !private ["Ps9AnyObject", "frames"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "ip"]
+- !private ["Ps9AnyObject", "load"]
 - !private ["Ps9AnyObject", "nextOp"]
 - !private ["Ps9AnyObject", "peek"]
 - !private ["Ps9AnyObject", "pop"]
@@ -69,6 +70,7 @@ depends-member:
 - ["Ps9AnyObject", "run"]
 - !private ["Ps9AnyObject", "running"]
 - !private ["Ps9AnyObject", "stack"]
+- !private ["Ps9AnyObject", "store"]
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "subscript"]
 - !private ["Ps23BidirectionalCollection", "subscript"]
@@ -116,6 +118,8 @@ depends-member:
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["C8stack_vm5Frame", "init"]
+- !private ["C8stack_vm5Frame", "load"]
+- !private ["C8stack_vm5Frame", "store"]
 - ["Ps8Hashable", "_code"]
 - ["Ps8Hashable", "_domain"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -297,4 +301,4 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "17687053ab46f741f77a4ff1e8281f71"
+interface-hash: "cf664b4872edb88daa9260ba75acc8db"
