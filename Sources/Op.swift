@@ -32,4 +32,6 @@ struct Op {
     static let CMP_LE  = 0x0406
     static let JMP     = 0x0411 // jump
     static let JIF     = 0x0412 // jump if
+    static let CALL    = 0x0413
+    static let RET     = 0x0414
 }

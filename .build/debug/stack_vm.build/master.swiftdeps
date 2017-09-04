@@ -1,8 +1,8 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "d7db1c03c2db775ba702a3568f7b5f48"
-build_time: [557783754, 962516000]
+build_time: [557870563, 652331000]
 inputs:
   "/Users/km/projects/stack-vm/Sources/Frame.swift": [557768628, 0]
-  "/Users/km/projects/stack-vm/Sources/main.swift": [557783740, 0]
-  "/Users/km/projects/stack-vm/Sources/Op.swift": [9223372036854775807, 0]
+  "/Users/km/projects/stack-vm/Sources/main.swift": [557870562, 0]
+  "/Users/km/projects/stack-vm/Sources/Op.swift": [557787221, 0]
   "/Users/km/projects/stack-vm/Sources/Stack.swift": [557769093, 0]

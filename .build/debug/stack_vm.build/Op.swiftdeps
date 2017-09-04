@@ -13,6 +13,7 @@ depends-top-level:
 depends-member:
 - ["V8stack_vm2Op", "ADD"]
 - ["V8stack_vm2Op", "AND"]
+- ["V8stack_vm2Op", "CALL"]
 - ["V8stack_vm2Op", "CMP_E"]
 - ["V8stack_vm2Op", "CMP_G"]
 - ["V8stack_vm2Op", "CMP_GE"]
@@ -33,6 +34,7 @@ depends-member:
 - ["V8stack_vm2Op", "POP"]
 - ["V8stack_vm2Op", "PRINT_I"]
 - ["V8stack_vm2Op", "PUSH"]
+- ["V8stack_vm2Op", "RET"]
 - ["V8stack_vm2Op", "STORE"]
 - ["V8stack_vm2Op", "SUB"]
 - ["V8stack_vm2Op", "init"]
@@ -42,4 +44,4 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "c6d0819190d54e7bdfd396b35997cd62"
+interface-hash: "eaf0782762056036ec566eb52235b25a"

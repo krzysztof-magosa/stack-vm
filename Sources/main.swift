@@ -115,13 +115,25 @@ class Vm {
                 try stack.push(asInt(compare(op, a, b)))
 
             case Op.JMP:
-                ip = try stack.pop()
+                ip = nextOp()
 
             case Op.JIF:
                 let a = try stack.pop()
+                let ja = nextOp()
                 if (asBool(a)) {
-                    ip = try stack.pop()
+                    ip = ja
                 }
+
+            case Op.CALL:
+                let ja = nextOp()
+                let frame = Frame(returnAddress: ip)
+                try frames.push(frame)
+                ip = ja
+
+            case Op.RET:
+                let ra = try frames.peek().returnAddress
+                try _ = frames.pop()
+                ip = ra
 
             default:
                 print("INVALID OP")
@@ -156,6 +168,10 @@ class Vm {
 }
 
 let code: [Int] = [
+  Op.CALL, 4,
+  Op.JMP, 0,
+
+  // address 3
   Op.PUSH, 100,
   Op.STORE, 0,
 
@@ -169,8 +185,7 @@ let code: [Int] = [
   Op.ADD,
 
   Op.PRINT_I,
-
-  Op.HALT
+  Op.RET
 ]
 
 let vm = Vm(code: code)

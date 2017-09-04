@@ -64,6 +64,7 @@ depends-member:
 - !private ["Ps9AnyObject", "pop"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "push"]
+- !private ["Ps9AnyObject", "returnAddress"]
 - ["Ps9AnyObject", "run"]
 - !private ["Ps9AnyObject", "running"]
 - !private ["Ps9AnyObject", "stack"]
@@ -116,6 +117,7 @@ depends-member:
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["C8stack_vm5Frame", "init"]
 - !private ["C8stack_vm5Frame", "load"]
+- !private ["C8stack_vm5Frame", "returnAddress"]
 - !private ["C8stack_vm5Frame", "store"]
 - ["Ps8Hashable", "_code"]
 - ["Ps8Hashable", "_domain"]
@@ -137,6 +139,7 @@ depends-member:
 - !private ["Ps17MutableCollection", "subscript"]
 - ["V8stack_vm2Op", "ADD"]
 - !private ["V8stack_vm2Op", "AND"]
+- ["V8stack_vm2Op", "CALL"]
 - !private ["V8stack_vm2Op", "CMP_E"]
 - !private ["V8stack_vm2Op", "CMP_G"]
 - !private ["V8stack_vm2Op", "CMP_GE"]
@@ -145,9 +148,9 @@ depends-member:
 - !private ["V8stack_vm2Op", "CMP_NE"]
 - !private ["V8stack_vm2Op", "DIV"]
 - !private ["V8stack_vm2Op", "DUP"]
-- ["V8stack_vm2Op", "HALT"]
+- !private ["V8stack_vm2Op", "HALT"]
 - !private ["V8stack_vm2Op", "JIF"]
-- !private ["V8stack_vm2Op", "JMP"]
+- ["V8stack_vm2Op", "JMP"]
 - ["V8stack_vm2Op", "LOAD"]
 - !private ["V8stack_vm2Op", "MOD"]
 - !private ["V8stack_vm2Op", "MUL"]
@@ -157,6 +160,7 @@ depends-member:
 - !private ["V8stack_vm2Op", "POP"]
 - ["V8stack_vm2Op", "PRINT_I"]
 - ["V8stack_vm2Op", "PUSH"]
+- ["V8stack_vm2Op", "RET"]
 - ["V8stack_vm2Op", "STORE"]
 - !private ["V8stack_vm2Op", "SUB"]
 - !private ["Ps22RandomAccessCollection", "subscript"]
@@ -297,4 +301,4 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "59d43ab07d6d1abeb4a4745e6c11f4cb"
+interface-hash: "9464671e3090ae27c11e0208d1cd4573"
